@@ -1,5 +1,7 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import LanguageSwitcher from "./languageSwitcher";
+import HebrewMenu from "./Menu";
 
 export default function NavBar() {
   const navigate = useNavigate();
@@ -40,6 +42,8 @@ export default function NavBar() {
       onClick={aboutUsNavigate}>
         About Us
       </button>
+      <div>
+    </div>
     </div>
   );
 }

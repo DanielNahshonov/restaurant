@@ -11,7 +11,7 @@ export default function HomePage() {
           <p className="text-xl mb-4">{t('homePage.description')}</p>
           {/* Добавляем стили для логотипа */}
           <img
-            src="/src/pics/logo.JPG"
+            src="/restaurant/logo.JPG"
             alt={t('homePage.logoAlt')}
             className="mx-auto mb-8 rounded-full shadow-lg"
             style={{ width: '150px', height: '150px', objectFit: 'cover' }}

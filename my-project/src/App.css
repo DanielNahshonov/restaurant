@@ -1,0 +1,6 @@
+/* styles.css */
+html[dir='rtl'] {
+    direction: rtl;
+    text-align: right;
+  }
+  

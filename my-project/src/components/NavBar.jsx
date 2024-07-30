@@ -6,16 +6,16 @@ export default function NavBar() {
   const { t } = useTranslation();
 
   function menuNavigate() {
-    navigate("/Menu");
+    navigate("restaurant/Menu");
   }
   function homeNavigate() {
-    navigate("/");
+    navigate("restaurant/");
   }
   function locationNavigate() {
-    navigate("/Location");
+    navigate("restaurant/Location");
   }
   function aboutUsNavigate() {
-    navigate("/AboutUs");
+    navigate("restaurant/AboutUs");
   }
 
   return (

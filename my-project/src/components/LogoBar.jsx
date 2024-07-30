@@ -1,6 +1,4 @@
-import React from 'react';
 import LanguageSwitcher from './languageSwitcher';
-// import logo from '../pics/logo.JPG'; // Путь к вашему логотипу
 
 export default function LogoBar() {
   return (

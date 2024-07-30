@@ -1,5 +1,3 @@
-// src/LanguageSwitcher.js
-import React from 'react';
 import { useTranslation } from 'react-i18next';
 import Flag from 'react-world-flags';
 

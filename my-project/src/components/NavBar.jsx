@@ -1,10 +1,9 @@
-import React from "react";
 import { useNavigate } from "react-router-dom";
-import { useTranslation } from 'react-i18next'; // Импортируйте useTranslation
+import { useTranslation } from 'react-i18next'; 
 
 export default function NavBar() {
   const navigate = useNavigate();
-  const { t } = useTranslation(); // Инициализируйте useTranslation
+  const { t } = useTranslation();
 
   function menuNavigate() {
     navigate("/Menu");

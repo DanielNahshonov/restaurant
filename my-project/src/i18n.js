@@ -1,30 +1,28 @@
-// src/i18n.js
 import i18n from 'i18next';
 import { initReactI18next } from 'react-i18next';
-
-import translationEN from './locales/en/translation.json';
-import translationHE from './locales/rus/translation.json'; 
-
-const resources = {
-  en: {
-    translation: translationEN,
-  },
-  he: {
-    translation: translationHE,
-  },
-};
+import enTranslation from './locales/en/translation.json';
+import ruTranslation from './locales/ru/translation.json';
+import heTranslation from './locales/he/translation.json';
 
 i18n
   .use(initReactI18next)
   .init({
-    resources,
-    lng: 'en', 
-    fallbackLng: 'en',
-
-    interpolation: {
-      escapeValue: false, 
+    resources: {
+      en: {
+        translation: enTranslation
+      },
+      ru: {
+        translation: ruTranslation
+      },
+      he: {
+        translation: heTranslation
+      }
     },
+    lng: "en", // Default language
+    fallbackLng: "en",
+    interpolation: {
+      escapeValue: false
+    }
   });
 
 export default i18n;
-

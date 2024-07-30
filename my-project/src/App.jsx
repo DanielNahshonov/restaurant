@@ -11,14 +11,11 @@ import Menu from "./components/Menu";
 import AboutUs from "./components/AboutUs";
 import ContactUs from "./components/ContactUs";
 import Location from "./components/Location";
-import LanguageSwitcher from "./components/languageSwitcher";
-
 function App() {
   return (
     <div>
       <div>
       <LogoBar />
-      <LanguageSwitcher/>
     </div>
       <NavBar/>
       <Routes>

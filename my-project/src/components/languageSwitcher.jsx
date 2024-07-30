@@ -1,6 +1,7 @@
 // src/LanguageSwitcher.js
 import React from 'react';
 import { useTranslation } from 'react-i18next';
+import Flag from 'react-world-flags';
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
@@ -13,21 +14,21 @@ const LanguageSwitcher = () => {
     <div className="flex justify-end p-4">
       <button 
         onClick={() => changeLanguage('en')} 
-        className="px-4 py-2 bg-blue-500 text-white rounded mr-2"
+        className="flex items-center px-4 py-2 bg-peach text-black font-bold rounded mr-2 hover:bg-white transition"
       >
-        English
+        <Flag code="US" className="w-6 h-4 mr-2" /> 
       </button>
       <button 
         onClick={() => changeLanguage('he')} 
-        className="px-4 py-2 bg-blue-500 text-white rounded"
+        className="flex items-center px-4 py-2 bg-peach text-black font-bold rounded mr-2 hover:bg-white transition"
       >
-        Hebrew
+        <Flag code="IL" className="w-6 h-4 mr-2" />
       </button>
       <button 
-        onClick={() => changeLanguage('rus')} 
-        className="px-4 py-2 bg-blue-500 text-white rounded"
+        onClick={() => changeLanguage('ru')} 
+        className="flex items-center px-4 py-2 bg-peach text-black font-bold rounded hover:bg-white transition"
       >
-        Russian
+        <Flag code="RU" className="w-6 h-4 mr-2" /> 
       </button>
     </div>
   );

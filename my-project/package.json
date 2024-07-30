@@ -16,7 +16,9 @@
     "i18next": "^23.12.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-i18next": "^15.0.0"
+    "react-flagkit": "^2.0.4",
+    "react-i18next": "^15.0.0",
+    "react-world-flags": "^1.6.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.66",

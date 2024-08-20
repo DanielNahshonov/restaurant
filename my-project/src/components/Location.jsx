@@ -1,7 +1,7 @@
 
 export default function Location() {
   return (
-    <div>
+    <div className="bg-peach">
       <h2>Our Location</h2>
       <iframe
         title="Google Map"

@@ -16,7 +16,7 @@ function App() {
   const direction = i18n.language === 'he' ? 'rtl' : 'ltr';
 
   return (
-    <div>
+    <div className="bg-peach">
       <LogoBar />
       <div dir={direction}>
         <NavBar />

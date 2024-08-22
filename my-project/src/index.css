@@ -1,6 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-body{
-    background-color: peachpuff;
+@import url('https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:wght@700&display=swap');
+
+
+body {
+  background-color: rgb(238, 164, 153);
+  @apply font-sans;
 }
+
+
+h1, h2, h3, h4, h5, h6, p, span, div, a {
+    color: white; /* Устанавливаем белый цвет для всех текстовых элементов */
+  }

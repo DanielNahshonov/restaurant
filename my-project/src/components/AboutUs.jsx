@@ -1,10 +1,8 @@
-import backgroundImage from '../assets/IMG_55ECAF561061-1.jpeg';
 
 export default function AboutUs() {
   return (
     <div
       className="bg-cover bg-center bg-no-repeat h-screen text-white p-8"
-      style={{ backgroundImage: `url(${backgroundImage})` }}
     >
       <p>
         Welcome to our restaurant, nestled on the sandy shores of Rishon LeZion, where the vibrant Israeli sun meets the gentle waves of the Mediterranean Sea. We’ve created the perfect spot for those who want to savor life’s simplest and most delightful pleasures.

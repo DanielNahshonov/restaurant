@@ -18,8 +18,8 @@ i18n
         translation: heTranslation
       }
     },
-    lng: "en", // Default language
-    fallbackLng: "en",
+    lng: "he", // Default language
+    fallbackLng: "he",
     interpolation: {
       escapeValue: false
     }

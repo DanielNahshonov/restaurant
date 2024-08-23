@@ -13,7 +13,7 @@ export default function LogoBar() {
         style={{ width: '150px', height: '150px', objectFit: 'cover' }}
       />
       <h1 className="text-4xl font-bold font-qwitcher italic text-center md:text-left">
-        Lola Restaurant
+        Lola Beach & Bar
       </h1>
       <div className="mt-4 md:mt-0">
         <LanguageSwitcher />

@@ -19,30 +19,30 @@ export default function NavBar() {
   }
 
   return (
-    <div className="bg-peach p-4 flex-col justify-center space-x-4">
+    <div className="bg-peach  flex-col justify-center space-x-4">
       <button
-        className="bg-peach text-outline-peach hover:bg-white font-bold py-2 px-4 rounded"
+        className="bg-peach text-outline-peach hover:bg-white font-bold p-4 rounded"
         onClick={homeNavigate}
       >
-        {t('navBar.home')} {/* Используйте перевод */}
+        {t('navBar.home')}
       </button>
       <button
-        className="bg-peach text-outline-peach hover:bg-white font-bold py-2 px-4 rounded"
+        className="bg-peach text-outline-peach hover:bg-white font-bold  rounded"
         onClick={menuNavigate}
       >
-        {t('navBar.menu')} {/* Используйте перевод */}
+        {t('navBar.menu')}
       </button>
       <button
-        className="bg-peach text-outline-peach hover:bg-white font-bold py-2 px-4 rounded"
+        className="bg-peach text-outline-peach hover:bg-white font-bold  rounded"
         onClick={locationNavigate}
       >
-        {t('navBar.location')} {/* Используйте перевод */}
+        {t('navBar.location')}
       </button>
       <button
-        className="bg-peach text-outline-peach hover:bg-white font-bold py-2 px-4 rounded"
+        className="bg-peach text-outline-peach hover:bg-white font-bold  rounded"
         onClick={aboutUsNavigate}
       >
-        {t('navBar.aboutUs')} {/* Используйте перевод */}
+        {t('navBar.aboutUs')} 
       </button>
     </div>
   );

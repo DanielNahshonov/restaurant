@@ -6,8 +6,8 @@ export default function HomePage() {
 
   return (
     <div className="bg-peach min-h-screen">
-      <div className="p-4">
-        <section className="text-center my-8">
+      <div >
+        <section className="text-center ">
           <h2 className="text-4xl font-bold mb-4">{t('homePage.welcomeTitle')}</h2>
           <p className="text-xl mb-4">{t('homePage.description')}</p>
         </section>

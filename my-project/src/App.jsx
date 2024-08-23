@@ -27,6 +27,7 @@ function App() {
           <Route path="restaurant/ContactUs" element={<ContactUs/>}/>
           <Route path="restaurant/Location" element={<Location/>}/>
         </Routes>
+        <ContactUs/>
       </div>
     </div>
   );

@@ -1,7 +1,7 @@
 
 export default function Location() {
   const handleMapClick = (platform) => {
-    const location = "HaTayelet 17, Rishon LeTsiyon, Israel"; // Address or coordinates
+    const location = "HaTayelet 19, Rishon LeTsiyon, Israel"; // Address or coordinates
     let url = '';
 
     switch(platform) {

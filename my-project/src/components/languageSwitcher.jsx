@@ -1,5 +1,5 @@
-import { useTranslation } from 'react-i18next';
-import Flag from 'react-world-flags';
+import { useTranslation } from "react-i18next";
+import Flag from "react-world-flags";
 
 const LanguageSwitcher = () => {
   const { i18n } = useTranslation();
@@ -9,25 +9,24 @@ const LanguageSwitcher = () => {
   };
 
   return (
-    <div className="flex flex-wrap justify-end p-4 gap-2">
-      <button 
-        onClick={() => changeLanguage('en')} 
-        className="flex items-center bg-peach text-black font-bold rounded hover:bg-white transition"
-      >
-        <Flag code="US" className="h-10" /> 
-      </button>
-      <button 
-        onClick={() => changeLanguage('he')} 
-        className="flex items-center px-4 bg-peach text-black font-bold rounded hover:bg-white transition"
-      >
-        <Flag code="IL" className="h-10" />
-      </button>
-      <button 
-        onClick={() => changeLanguage('ru')} 
-        className="flex items-center bg-peach text-black font-bold rounded hover:bg-white transition"
-      >
-        <Flag code="RU" className="h-10" /> 
-      </button>
+    <div className="flex flex-wrap justify-end  gap-2">
+      <Flag
+        onClick={() => changeLanguage("en")}
+        code="US"
+        className="w-12 h-12 rounded-full overflow-hidden border-2 border-white "
+      />
+
+      <Flag
+        onClick={() => changeLanguage("he")}
+        code="IL"
+        className="w-12 h-12 rounded-full overflow-hidden border-2 border-white "
+      />
+
+      <Flag
+        onClick={() => changeLanguage("ru")}
+        code="RU"
+        className="w-12 h-12 rounded-full overflow-hidden border-2 border-white "
+      />
     </div>
   );
 };
